@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dow Jones Backtesting Engine — Project</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fafafa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0d1117;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.4rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            opacity: 0.85;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-left: 4px solid #0366d6;
+            padding-left: 10px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 6px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .code-block {
+            background: #f4f4f4;
+            padding: 12px;
+            border-radius: 6px;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Dow Jones Backtesting Engine</h1>
+    <p>A systematic mean‑reversion strategy benchmarked against the DIA ETF</p>
+</header>
+
+<div class="container">
+
+    <h2>📌 Overview</h2>
+    <p>
+        This project implements a Python-based backtesting engine to evaluate a mean‑reversion strategy on 
+        Dow Jones Industrial Average (DJIA) constituents. It automates data ingestion, portfolio construction, 
+        performance calculation, and visualization — producing reproducible, publication‑ready outputs.
+    </p>
+
+    <p>
+        The goal is to demonstrate practical skills in financial analysis, systematic strategy design, 
+        and data-driven evaluation.
+    </p>
+
+    <h2>📈 Strategy Performance</h2>
+    <p>
+        The chart below shows the growth of a $100,000 portfolio from 2016–2025. The mean‑reversion strategy 
+        significantly outperformed the DIA ETF benchmark over the period.
+    </p>
+
+    <!-- Embed your chart here -->
+    <img src="backtesting-results.png" alt="Backtesting Results Chart">
+
+    <h2>📊 Key Metrics</h2>
+    <div class="code-block">
+Strategy              Annualized Return    Volatility    Sharpe Ratio
+Mean Reversion        19.77%               20.11%        0.98
+DIA ETF               14.69%               17.47%        0.84
+    </div>
+
+    <p>
+        These results highlight the potential value of systematic rebalancing based on short-term price deviations.
+    </p>
+
+    <h2>🧠 Methodology</h2>
+    <ul>
+        <li>Historical DJIA constituent list extracted automatically</li>
+        <li>Daily adjusted close prices downloaded via <code>yfinance</code></li>
+        <li>Mean‑reversion signal applied across constituents</li>
+        <li>Equal-weighted portfolio with daily rebalancing</li>
+        <li>Benchmark: DIA ETF</li>
+        <li>Performance metrics: CAGR, volatility, Sharpe ratio, drawdown</li>
+    </ul>
+
+    <h2>🗂️ Repository Structure</h2>
+    <div class="code-block">
+stock_backtesting/
+│   Backtesting Final.py
+│   dow_jones_constituents.csv
+│   dow_jones_data.csv
+│
+└── results/
+    └── 2025-11-29_16-01-42/
+        backtesting-results.png
+        line_chart.html
+        performance_metrics.csv
+    </div>
+
+    <h2>🚀 Run the Backtest</h2>
+    <div class="code-block">
+pip install pandas numpy matplotlib yfinance
+python "Backtesting Final.py"
+    </div>
+
+    <h2>🔮 Future Improvements</h2>
+    <ul>
+        <li>Factor-based strategies (value, momentum, quality)</li>
+        <li>Transaction cost modeling</li>
+        <li>Volatility targeting or risk parity</li>
+        <li>Streamlit dashboard for interactive exploration</li>
+        <li>Macro‑driven signal integration</li>
+    </ul>
+
+</div>
+
+<footer>
+    © 2026 Claire Lee — Financial Analysis & Data Engineering Portfolio
+</footer>
+
+</body>
+</html>
