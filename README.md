@@ -2,13 +2,13 @@
 
 ---
 
-# 📈 **Dow Jones Mean Reversion Backtesting Engine**
+#  **Dow Jones Mean Reversion Backtesting Engine**
 
 This project implements a Python-based backtesting engine to evaluate a mean‑reversion trading strategy on Dow Jones Industrial Average (DJIA) constituents. It automates data ingestion, portfolio construction, performance calculation, and visualization — producing reproducible, publication‑ready outputs suitable for financial analysis and portfolio research.
 
 ---
 
-## 🔍 **Project Overview**
+##  **Project Overview**
 
 Financial analysts often need to evaluate how a strategy would have performed historically. This project demonstrates an end‑to‑end workflow:
 
@@ -23,7 +23,7 @@ The goal is to showcase practical skills in financial modeling, Python, and data
 
 ---
 
-## 📂 **Repository Structure**
+##  **Repository Structure**
 
 ```
 stock_mean_reversion_backtesting/
@@ -42,7 +42,7 @@ stock_mean_reversion_backtesting/
 
 ---
 
-## 📊 **Results**
+##  **Results**
 
 ### **Cumulative Performance: Mean Reversion Strategy vs DIA ETF**
 
@@ -71,7 +71,7 @@ docs/backtesting/line_chart.html
 
 ---
 
-## 🧠 **Methodology**
+##  **Methodology**
 
 ### **Data**
 - Historical daily adjusted close prices for all DJIA constituents  
@@ -94,7 +94,7 @@ The framework is modular and can be extended to:
 
 ---
 
-## 🚀 **How to Run the Backtest**
+##  **How to Run the Backtest**
 
 ### **1. Install dependencies**
 ```
@@ -131,21 +131,22 @@ including:
 
 ---
 
-## 🌐 **Live Project Page**
+##  **Live Project Page**
 
 A polished GitHub Pages version of this project is available at:
 
 ```
-https://<your-username>.github.io/stock_mean_reversion_backtesting/backtesting/
+https://<your-username>.github.io/stock_mean_reversion_backtesting/backtesting/](https://cl0110.github.io/stock_mean_reversion_backtesting/
 ```
 
 (Replace `<your-username>` with your GitHub username.)
 
 ---
 
-## 📬 **Contact**
+##  **Contact**
 
 If you’d like to discuss this project or explore more of my work, feel free to reach out.
+claire.lee.bolam@gmail.com
 
 ---
 
