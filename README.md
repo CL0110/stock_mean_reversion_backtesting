@@ -46,10 +46,10 @@ stock_mean_reversion_backtesting/
 
 ### **Cumulative Performance: Mean Reversion Strategy vs DIA ETF**
 
-This chart shows the growth of a \$100,000 portfolio from 2016–2025.  
+This chart shows the growth of a $100,000 portfolio from 2016–2025.  
 The mean‑reversion strategy significantly outperformed the DIA ETF benchmark over the period.
 
-`[Looks like the result wasn't safe to show. Let's switch things up and try something else!]`
+![Cumulative Performance Chart](docs/backtesting/backtesting-results.png)
 
 ---
 
@@ -61,9 +61,6 @@ The mean‑reversion strategy significantly outperformed the DIA ETF benchmark o
 | DIA ETF          | 14.69%            | 17.47%     | 0.84         |
 
 These results highlight the potential value of systematic rebalancing based on short-term price deviations.
-
----
-
 ### **Interactive Chart**
 
 An interactive version of the performance chart is available here:
