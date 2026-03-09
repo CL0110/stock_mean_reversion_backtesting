@@ -4,7 +4,12 @@
 
 #  **Dow Jones Mean Reversion Backtesting Engine**
 
-This project implements a Python-based backtesting engine to evaluate a mean‑reversion trading strategy on Dow Jones Industrial Average (DJIA) constituents. It automates data ingestion, portfolio construction, performance calculation, and visualization — producing reproducible, publication‑ready outputs suitable for financial analysis and portfolio research.
+This project implements a Python-based backtesting engine to evaluate a mean‑reversion trading strategy on Dow Jones Industrial Average (DJIA) constituents. 
+
+A mean reversion strategy is based on the idea that asset prices often deviate from their typical or “normal” level in the short run but tend to move back toward that level over time. These short‑term dislocations can be driven by investor overreaction, liquidity imbalances, or temporary noise that pushes prices away from fundamentals. The strategy systematically buys stocks that have recently underperformed relative to their peers, assuming those deviations are temporary, and reduces exposure to recent outperformers that may be overextended. By rebalancing regularly and exploiting these short‑term inefficiencies, the approach can generate returns that differ meaningfully from a passive benchmark, particularly in liquid, large‑cap markets like the Dow Jones where institutional rebalancing and high trading volume reinforce these dynamics.
+
+This project tests the validity of that idea by comparing the performance of a mean reversion strategy against a simple passive benchmark (the DIA ETF) over a multi‑year period. The backtesting engine automates data ingestion, portfolio construction, performance calculation, and visualization, producing reproducible, publication‑ready outputs suitable for financial analysis and portfolio research
+
 
 ---
 
