@@ -7,7 +7,15 @@ from datetime import date
 
 st.set_page_config(page_title="DJIA Mean Reversion Backtester", layout="wide")
 st.title("Dow Jones Mean Reversion Backtesting Engine")
-st.markdown("Evaluate a systematic mean-reversion strategy on DJIA constituents vs the DIA ETF benchmark.")
+st.markdown("Hi there! 👋")
+st.markdown("")
+st.markdown("Does buying beaten-down stocks actually beat the market? This tool lets you find out.")
+st.markdown("")
+st.markdown("The strategy is based on mean reversion — the idea that stocks tend to deviate from their long-term average in the short run but eventually snap back. It systematically buys the most recent underperformers in the DJIA and rebalances regularly, benchmarked against the DIA ETF as a passive alternative.")
+st.markdown("")
+st.markdown("Adjust the lookback window, number of stocks, rebalance frequency, and date range to run your own scenarios.")
+st.markdown("")
+st.markdown("Questions or feedback? Reach out at [claire.lee.bolam@gmail.com](mailto:claire.lee.bolam@gmail.com) 🙂")
 
 st.sidebar.header("Strategy Parameters")
 
