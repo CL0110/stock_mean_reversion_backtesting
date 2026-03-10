@@ -54,7 +54,7 @@ stock_mean_reversion_backtesting/
 This chart shows the growth of a $100,000 portfolio from 2016–2025.  
 The mean‑reversion strategy significantly outperformed the DIA ETF benchmark over the period.
 
-![Cumulative Performance Chart](docs/backtesting/backtesting-results.png)
+![Cumulative Performance Chart](docs/backtesting/backtesting-results_v2.png)
 
 ---
 
