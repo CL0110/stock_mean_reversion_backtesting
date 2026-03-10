@@ -10,7 +10,7 @@ st.markdown("""
 Hi there! Does buying beaten-down stocks actually beat the market? This tool lets you find out.
 The strategy is based on **mean reversion** — stocks tend to deviate from their long-term average in the short run but eventually snap back. It systematically buys the most recent underperformers in the DJIA and rebalances regularly, benchmarked against the **DIA ETF** as a passive alternative. Adjust the lookback window, number of stocks, rebalance frequency, and date range in the sidebar to run your own scenarios.
 **Data source:** Prices are downloaded via [yfinance](https://pypi.org/project/yfinance/), an open-source Python library for Yahoo Finance data.
-Questions or feedback? Reach out at [claire.lee.bolam@gmail.com](mailto:claire.lee.bolam@gmail.com) 
+Questions or feedback? Reach out at [claire.bolam@magnastats.com](mailto:claire.bolam@magnastats.com) 
 """)
 with st.expander("ℹ️ About yfinance"):
     st.markdown("""
