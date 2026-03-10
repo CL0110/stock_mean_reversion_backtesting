@@ -12,7 +12,7 @@ st.markdown("Evaluate a systematic mean-reversion strategy on DJIA constituents 
 st.sidebar.header("Strategy Parameters")
 
 start_date = st.sidebar.date_input("Start Date", value=date(2016, 1, 1))
-end_date   = st.sidebar.date_input("End Date",  valuee=date.today())
+end_date   = st.sidebar.date_input("End Date",  value=date.today())
 
 lookback   = st.sidebar.slider("Lookback Window (days)", min_value=5, max_value=60, value=20,
                                 help="Rolling window to compute mean-reversion signal")
