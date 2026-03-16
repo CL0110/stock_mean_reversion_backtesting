@@ -126,15 +126,6 @@ including:
 
 ---
 
-## 🔮 **Future Improvements**
-
-- Add transaction cost modeling  
-- Introduce factor-based strategies  
-- Implement volatility targeting or risk parity  
-- Build a Streamlit dashboard for interactive exploration  
-- Integrate macroeconomic indicators for signal generation  
-
----
 
 ##  **Live Project Page**
 
